@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+	background: #eeeeee;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contain {
+	width: 1024px;
+	height: 1800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+    background: #eeeeee;
+
+}
+
+nav {
+	width: 876px;
+	position: relative;
+	margin: 0px 0px 40px 20px;
+	
+	
+}
+nav a {
+	margin: 0px 27px 0px 27px;
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+}
+
+.logo {
+	position: relative;
+    top: 10px;
+    right: -67px;
+}
+
+.img-holder {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header p, header h1 {
+    text-align: left;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header {
+    width: 880px;
+    margin: 0 auto;
+}
+
+header img {
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+hr {
+    width: 880px;
+    margin: 40px 0px 40px 50px;
+}
+
+.content-box {
+    background: #e4e3e4;
+    width: 430px;
+    height: 240px;
+    border: 1px solid black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.content-box button {
+    margin-top: 25px;
+    width: 145px;
+    padding: 11px;
+    border: 1px solid black;
+    background: #eeeeee;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.content-box p {
+    font-size: 17px;
+}
+
+.content-box:nth-child(odd) {
+    float: left;
+    position: relative;
+}
+
+.content-box:nth-child(even) {
+    float: right;
+    position: relative;
+    margin-left: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+    margin: 0 auto;
+    
+}
+
+#facts {
+    text-align: left;
+    width: 880px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fact-text {
+    display: block;
+    width: 50%;
+    position: relative;
+    float: left;
+    margin-top: 25px;
+}
+
+.fact-text ul {
+    margin: 30px 0px 0px 20px;
+    list-style-type: square;
+
+}
+
+.services-info-img {
+    float: right; 
+    position: relative; 
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: -40px;
+}
