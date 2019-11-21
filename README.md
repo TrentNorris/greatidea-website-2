@@ -1,1 +1,1 @@
-https://trentnorris.github.io/greatidea-website-2/index.html
+Live: https://trentnorris.github.io/greatidea-website-2/index.html
